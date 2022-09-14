@@ -1,0 +1,85 @@
+.first_time {
+	position: relative;
+	margin: 0 auto;
+	margin-top: 30px;
+    padding: 10px 0;
+	.container {
+		max-width: 1400px;
+	}
+	&_book {
+		position: relative;
+		margin-top: 70px;
+		&__photo {
+			position: absolute;
+			right: 6%;			
+			width: 600px;
+		};
+		&_descr {
+			padding-left: 50px;
+			width: 600px;
+		}
+	}
+	&__photo {
+		width: 700px;
+		padding-left: 60px;
+		margin-top: 60px;
+	}
+    &__wrapper { 
+		position: absolute;
+		right: 4%;
+		top: 7%;
+        margin-top: 40px;
+        width: 600px;
+        min-height: auto;
+        .accordion {
+            font-size: 20px;
+            font-weight: bold;
+            background-color: #fff;
+            color: #000;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: 1px solid rgb(234, 234, 234);
+            border-radius: 6px;
+            text-align: left;
+            outline: none;
+            transition: 0.4s;
+            &::hover {
+                background-color: #fff;
+            }
+            .panel {
+                padding: 20px 20px;
+                background-color: white;
+                max-height: 0px;
+                overflow: hidden;
+                transition: max-height 0.2s ease-out;
+                &__text {
+                    display: none;
+					padding: 20px 20px;
+                };
+            };
+        };
+        .active {
+            color: $main-color;
+            background-color: #fff;
+            display: block;
+        };
+    };
+}
+
+.panel__text {
+    padding: 20px 20px;
+}
+
+.quote {
+    margin-top: 40px;
+    .subtitle {
+        padding: 0 40px;
+    };
+    p {
+        display: block;
+        margin-top: 20px;
+        text-align: right;
+        font-weight: bold;
+    };
+}

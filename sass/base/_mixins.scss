@@ -1,0 +1,6 @@
+@mixin red-dot {
+    &::after {
+        content: ".";
+        color: $main-color;
+    }
+}

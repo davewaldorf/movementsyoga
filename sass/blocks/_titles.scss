@@ -1,0 +1,31 @@
+.title {
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    font-size: 60px;
+    text-shadow: 3px 0 6px #505050;
+    line-height: 1.1;
+    @include red-dot;
+    &__footer {
+        font-size: 14px;
+        font-weight: 400;
+    };
+}
+
+.subtitle {
+    margin-top: 15px;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-align: center;
+    color: #000;
+    @include red-dot;
+    &_book {
+        margin-top: 90px;
+    }
+    &__book {
+        padding-left: 50px;
+        text-align: left;
+        margin: 20px 0; 
+    }
+}

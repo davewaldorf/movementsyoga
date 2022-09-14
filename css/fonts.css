@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "GT-Walsheim";
+    font-weight: normal;
+    src: url("../fonts/GT-Walsheim-Regular.woff");
+}
+
+@font-face {
+    font-family: "GT-Walsheim";
+    font-weight: bold;
+    src: url("../fonts/GT-Walsheim-Bold.woff");
+}

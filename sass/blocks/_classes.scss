@@ -1,0 +1,28 @@
+.classes {
+    height: 500px;
+    padding: 35px 15px;
+    background-color: #f2f1ee;
+    .class {
+        position: relative;
+        background-size: cover;
+        height: 350px;
+        &__descr {
+            width: 100%;
+            position: absolute;
+            bottom: 43%;
+            text-align: center;
+            background-color: rgba($color: #fff, $alpha: 0.4);
+       }
+       &__photo {
+            height: 200px;
+       }
+    } 
+}
+
+.owl-carousel {
+    margin-top: 30px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: -webkit-linear-gradient(#fe6e00, #eb9859);
+}

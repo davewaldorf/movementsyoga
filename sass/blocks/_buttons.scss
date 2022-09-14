@@ -1,0 +1,35 @@
+.btn {
+        display: block;
+        margin: 0 auto;;
+        margin-top: 40px;
+        font-size: 13px;
+        font-weight: 400;
+        color: #fff;
+        background-color: $main-color;
+        width: 230px;
+        border-radius: 4px;
+        height: 40px;
+        border: none;
+        text-transform: uppercase;
+        letter-spacing: 0.125rem;
+    &:hover {
+        transition: all 500ms ease-in-out;
+        background-color: $main-color;
+        border: 1px solid $main-color;
+        color: white; 
+    }
+    &_top-menu {
+        visibility: hidden;
+        width: auto;
+        margin-top: 20px;
+        font-size: 14px;   
+        background-color: white;
+        color: black;
+        border: 1px solid white;
+        padding: 4px 8px;
+        text-align: center;
+    }
+    &__promo {
+        background-color: #336542;
+    }
+}
